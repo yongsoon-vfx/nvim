@@ -15,3 +15,7 @@ vim.opt.incsearch = true
 
 vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
+
+-- Code Runner Binds
+vim.keymap.set('n', '<leader>r', ':RunCode<CR>', { noremap = true, silent = false })
+vim.keymap.set('n', '<leader>rc', ':RunClose<CR>', { noremap = true, silent = false })
